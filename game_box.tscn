@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dks0g5todoaij"]
+
+[ext_resource type="PackedScene" uid="uid://bf87pq3m5jjj3" path="res://Objects/game_box.glb" id="1_f2w58"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lquwl"]
+size = Vector3(3, 0.375, 2.1)
+
+[node name="GameBox" type="Area3D" unique_id=591394328]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1559493641]
+shape = SubResource("BoxShape3D_lquwl")
+metadata/_edit_lock_ = true
+
+[node name="game_box" parent="." unique_id=974995557 instance=ExtResource("1_f2w58")]

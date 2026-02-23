@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bndedaksyalfh"]
+
+[resource]
+resource_name = "Spine"
+cull_mode = 2
+albedo_color = Color(0, 0.9064896, 0.18591715, 1)
+roughness = 0.5
